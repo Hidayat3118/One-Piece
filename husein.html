@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+</head>
+<body>
+
+    
+
+<nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="img/husein.png" class="h-8" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+      </a>
+      <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+        <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
+          </li>
+          <li>
+              <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Dropdown <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+    </svg></button>
+              <!-- Dropdown menu -->
+              <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                  <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                    </li>
+                  </ul>
+                  <div class="py-1">
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                  </div>
+              </div>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <header class="bg-black">
+    <div class="flex  text-white px-32 py-10  container mx-auto">
+    <h1 class="text-4xl hover:text-green-600 cursor-pointer -mt-4">One Piece </h1>
+    <p class="ml-5 ">» 110 issues</p> 
+</div> 
+<div class="container mx-auto">
+    <p class="text-white px-32 -mt-6 pb-8"> <span class="text-green-600 hover:text-green-700 cursor-pointer">Volume </span> » Published by <span class="text-green-600 hover:text-green-700 cursor-pointer">Shueisha</span> . Started in 1997.</p>
+</div>
+  
+  </header>
+
+
+  <section>
+    <div class="container  mx-auto">
+
+        <div class="flex gap-24 ">
+        <!-- flex pertama -->
+
+<div>
+        <div class=" flex ml-32 mt-6">
+            
+            <i class="fa-solid fa-file"> </i> <p class="ml-2">One Piece last edited by pikahyper on 04/01/19 07:37PM</p>
+
+        
+        </div>
+
+        <p class="ml-32 mt-4"> <span class="font-bold">Proper Japanese Title:</span> ワンピース (Wan Piisu)</p>
+
+        <div class="w-[600px] ">
+            <p class="mt-4 ml-32">The original Japanese manga published by Shueisha, the individual chapters are serialized in <span class="text-green-600  cursor-pointer">Weekly Shonen Jump. </span> </p>
+        </div>
+
+        <div class="w-[600px] ">
+            <p class="mt-4 ml-32">One Piece has been reprinted in multiple languages, including English by 
+                Viz Media. Located here. The collections for this series have made this the best-selling 
+                manga of all-time by a significant margin.</span> </p>
+        </div>
+     
+
+    </div>
+        <!-- end 1 -->
+
+        <div class="">
+            <img class="w-80 h-64 object-cover mt-6" src="img/one.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="ml-32">
+        <h1 class="text-2xl font-bold">110 issues in this volume</h1>
+        <hr class="border-1 border-gray-500 my-2">
+      </div>
+
+      </div>
+
+      
+  </section>
+
+  <section class="pt-16 ">
+
+
+    <div class="flex gap-24 container mx-auto">
+
+        <!-- flex 1 -->
+    <div class="flex gap-10 ml-32 flex-wrap">
+
+    <div class="text-center"> 
+        <img src="img/1.png" class="h-72 w-48 border-2 border-black " alt="">
+        <p class="font-bold">Issue #109</p>
+        <p>"Kimi No Mikata"</p>
+        <p>July 9, 2024</p>
+    </div>
+
+    <div class="text-center"> 
+        <img src="img/dua.png" class="h-72 w-48 border-2 border-black " alt="">
+        <p class="font-bold">Issue #109</p>
+        <p>"Kimi No Mikata"</p>
+        <p>July 9, 2024</p>
+    </div>
+
+    <div class="text-center"> 
+        <img src="img/one.png" class="h-72 w-48 border-2 border-black " alt="">
+        <p class="font-bold">Issue #109</p>
+        <p>"Kimi No Mikata"</p>
+        <p>July 9, 2024</p>
+    </div>
+
+    <div class="text-center"> 
+        <img src="img/empat.png" class="h-72 w-48 border-2 border-black " alt="">
+        <p class="font-bold">Issue #109</p>
+        <p>"Kimi No Mikata"</p>
+        <p>July 9, 2024</p>
+    </div>
+
+    </div>
+
+
+    <!-- flex 2 -->
+
+
+    <div class="border-2 border-gray-300">
+
+        <div class="text-2xl font-bold border-2 border-gray-300 ">
+            Volume details
+        </div>
+
+        <div class="flex gap-28">
+           <p>Name</p>
+           <p class="text-green-600 cursor-pointer hover:text-green-500">One Piece</p>
+        </div>
+
+        <div class="flex gap-24 border-2 border-gray-300">
+            <p>Publisher</p>
+            <p class="">Shueisha</p>
+        </div>
+
+        <div class="flex gap-24 border-2 border-gray-300">
+            
+        <div class=" gap-28  ">
+            <p>Themes</p>
+        </div>
+
+        <div class=""> 
+           <p>Action</p>
+           <p>Advanture</p>
+           <p>Animated</p>
+           <p>Drama</p>
+           <p>Humor</p>
+           <p>Manga</p>
+           <p>Science Fiction</p>
+        </div>
+
+    </div>
+
+
+    <div class="flex gap-24 ">
+            
+        <div class=" gap-28  ">
+            <p>Aliases</p>
+        </div>
+
+        <div class=""> 
+           <p>ワンピース</p>
+           <p>Wan Piisu</p>
+           
+        </div>
+
+    </div>
+
+
+    </div>
+
+
+</div>
+
+  </section >
+
+  
+
+ 
+ <footer class="pt-32  container mx-auto">
+    <div class="flex ml-32">
+      <div>
+        <img src="img/husein.png" class="w-16 cursor-pointer filter grayscale hover:filter-none " alt="">
+      </div>
+      <div>
+        <img src="img/gamespot.png" class="h-10 cursor-pointer ml-6 filter grayscale hover:filter-none transition duration-300" alt="">
+      </div>
+      <div class="flex gap-10 ml-[840px] mt-2">
+        <p><i class="fa-brands fa-facebook"></i></p>
+        <p><i class="fa-brands fa-youtube"></i></p>
+        <p><i class="fa-brands fa-twitter"></i></p>
+        <p><i class="fa-solid fa-rss"></i></p>
+      </div>
+    </div>
+
+    <div class="flex gap-6 text-gray-500 pb-32 mt-8 ml-32">
+        <p class="hover:text-green-500 cursor-pointer">Partnerships</p>
+        <p class="hover:text-green-500 cursor-pointer">Api</p>
+        <p class="hover:text-green-500 cursor-pointer">Terms of Use</p>
+        <p class="hover:text-green-500 cursor-pointer">Digital Services Act</p>
+        <p class="hover:text-green-500 cursor-pointer">Privacy Policy</p>
+        <p class="hover:text-green-500 cursor-pointer">Cookies Setting</p>
+        <p class="hover:text-green-500 cursor-pointer">HelpCareers</p>
+        <p class="ml-32"> © 2024 FANDOM, INC. ALL RIGHTS RESERVED.</p>
+
+    </div>
+  </footer>
+  
+
+    
+</body>
+</html>
