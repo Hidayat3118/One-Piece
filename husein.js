@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const itemsPerPage = 16; // Jumlah item per halaman
+    const itemsPerPage = 44; 
     const items = document.querySelectorAll('.item');
     let currentPage = 1;
 
